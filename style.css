@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+body {
+    background-color: antiquewhite;
+    margin: 0px;
+    background-image: url(imagens/HD-wallpaper-manga-collage-sunglasses-graph-thumbnail.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: black;
+    height: 30px;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+nav a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+
+header {
+    background-color: brown;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.703);
+}
+
+
+main {
+    background-color: chocolate;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+}
+
+main article {
+   background-color: black;
+    margin: auto;
+    max-width: 900px;
+    padding-top: 50px;
+}
+
+main > article > p {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    line-height: 1.5em;
+    text-align: justify;
+    margin: auto;
+    max-width: 600px;
+    border-radius: 5px;
+
+}
+
+main > article > h2 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    padding-left: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: rgb(0, 0, 0);
+}
